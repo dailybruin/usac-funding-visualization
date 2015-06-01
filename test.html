@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="filter">
+          <input type="text" class="search" id="search_text" list="search" placeholder="Search for student groups"/>
+          <datalist id="search">
+          </datalist>
+          <input class="search_button" type="submit" onclick="search()"/>
+        </div>
+        <div class="viz">
+        </div>
+    </body>
+
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.3/d3-tip.min.js"></script>
+    <script src="main.js"></script>
+</html>
